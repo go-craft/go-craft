@@ -5,14 +5,17 @@ package cmd
 
 import (
 	"fmt"
+	"runtime"
 
+	"github.com/go-craft/go-craft/pkg/version"
 	"github.com/spf13/cobra"
 )
 
-// generateCmd represents the generate command
-var generateCmd = &cobra.Command{
-	Use:   "generate",
-	Short: "A brief description of your command",
+// versionCmd represents the version command
+var ver = version.NewGoCraftVersion().SemVer()
+var versionCmd = &cobra.Command{
+	Use:   "version",
+	Short: ver,
 	Long: `A longer description that spans multiple lines and likely contains examples
 and usage of using your command. For example:
 
@@ -20,20 +23,21 @@ Cobra is a CLI library for Go that empowers applications.
 This application is a tool to generate the needed files
 to quickly create a Cobra application.`,
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("generate called")
+		fmt.Println("go-craft version:", ver)
+		fmt.Println("go version:", runtime.Version())
 	},
 }
 
 func init() {
-	rootCmd.AddCommand(generateCmd)
+	rootCmd.AddCommand(versionCmd)
 
 	// Here you will define your flags and configuration settings.
 
 	// Cobra supports Persistent Flags which will work for this command
 	// and all subcommands, e.g.:
-	// generateCmd.PersistentFlags().String("foo", "", "A help for foo")
+	// versionCmd.PersistentFlags().String("foo", "", "A help for foo")
 
 	// Cobra supports local flags which will only run when this command
 	// is called directly, e.g.:
-	// generateCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
+	// versionCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
 }
