@@ -1,39 +1,39 @@
-[submodule "tmpl/server/php/thinkphp"]
-	path = tmpl/server/php/thinkphp
-	url = https://github.com/go-craft/tmpl-server-php-thinkphp
-[submodule "tmpl/server/php/laravel"]
-	path = tmpl/server/php/laravel
-	url = https://github.com/go-craft/tmpl-server-php-laravel
-[submodule "tmpl/client/cpp/qt5"]
-	path = tmpl/client/cpp/qt5
-	url = https://github.com/go-craft/tmpl-client-cpp-qt5
-[submodule "tmpl/client/java/android"]
-	path = tmpl/client/java/android
-	url = https://github.com/go-craft/tmpl-client-java-android
-[submodule "tmpl/client/rust/reqwest"]
-	path = tmpl/client/rust/reqwest
-	url = https://github.com/go-craft/tmpl-client-rust-reqwest
-[submodule "tmpl/server/go/goframe"]
-	path = tmpl/server/go/goframe
-	url = https://github.com/go-craft/tmpl-server-go-goframe
-[submodule "tmpl/server/go/gin"]
-	path = tmpl/server/go/gin
-	url = https://github.com/go-craft/tmpl-server-go-gin
+[submodule "module/server/php/thinkphp"]
+	path = module/server/php/thinkphp
+	url = git@github.com:go-craft/module-server-php-thinkphp
+[submodule "module/server/php/laravel"]
+	path = module/server/php/laravel
+	url = git@github.com:go-craft/module-server-php-laravel
+[submodule "module/client/cpp/qt5"]
+	path = module/client/cpp/qt5
+	url = git@github.com:go-craft/module-client-cpp-qt5
+[submodule "module/client/java/android"]
+	path = module/client/java/android
+	url = git@github.com:go-craft/module-client-java-android
+[submodule "module/client/rust/reqwest"]
+	path = module/client/rust/reqwest
+	url = git@github.com:go-craft/module-client-rust-reqwest
+[submodule "module/server/go/goframe"]
+	path = module/server/go/goframe
+	url = git@github.com:go-craft/module-server-go-goframe
+[submodule "module/server/go/gin"]
+	path = module/server/go/gin
+	url = git@github.com:go-craft/module-server-go-gin
 [submodule "example"]
 	path = example
-	url = https://github.com/go-craft/example
+	url = git@github.com:go-craft/example
 [submodule "doc"]
 	path = doc
-	url = https://github.com/go-craft/doc
-[submodule "tmpl/schema/mysql"]
-	path = tmpl/schema/mysql
-	url = https://github.com/go-craft/tmpl-schema-mysql
-[submodule "tmpl/schema/pgsql"]
-	path = tmpl/schema/pgsql
-	url = https://github.com/go-craft/tmpl-schema-pgsql
-[submodule "tmpl/schema/tdengine"]
-	path = tmpl/schema/tdengine
-	url = https://github.com/go-craft/tmpl-schema-tdengine
+	url = git@github.com:go-craft/doc
+[submodule "module/schema/mysql"]
+	path = module/schema/mysql
+	url = git@github.com:go-craft/module-schema-mysql
+[submodule "module/schema/pgsql"]
+	path = module/schema/pgsql
+	url = git@github.com:go-craft/module-schema-pgsql
+[submodule "module/schema/tdengine"]
+	path = module/schema/tdengine
+	url = git@github.com:go-craft/module-schema-tdengine
 [submodule "module/server/go/goframe"]
 	path = module/server/go/goframe
 	url = git@github.com:go-craft/module-server-go-goframe.git
