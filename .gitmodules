@@ -1,24 +1,21 @@
-[submodule "module/server/php/thinkphp"]
-	path = module/server/php/thinkphp
-	url = git@github.com:go-craft/module-server-php-thinkphp
 [submodule "module/server/php/laravel"]
 	path = module/server/php/laravel
-	url = git@github.com:go-craft/module-server-php-laravel
+	url = git@github.com:go-craft/module-server-php-laravel.git
 [submodule "module/client/cpp/qt5"]
 	path = module/client/cpp/qt5
-	url = git@github.com:go-craft/module-client-cpp-qt5
+	url = git@github.com:go-craft/module-client-cpp-qt5.git
 [submodule "module/client/java/android"]
 	path = module/client/java/android
-	url = git@github.com:go-craft/module-client-java-android
+	url = git@github.com:go-craft/module-client-java-android.git
 [submodule "module/client/rust/reqwest"]
 	path = module/client/rust/reqwest
-	url = git@github.com:go-craft/module-client-rust-reqwest
+	url = git@github.com:go-craft/module-client-rust-reqwest.git
 [submodule "module/server/go/goframe"]
 	path = module/server/go/goframe
 	url = git@github.com:go-craft/module-server-go-goframe
 [submodule "module/server/go/gin"]
 	path = module/server/go/gin
-	url = git@github.com:go-craft/module-server-go-gin
+	url = git@github.com:go-craft/module-server-go-gin.git
 [submodule "example"]
 	path = example
 	url = git@github.com:go-craft/example
@@ -27,13 +24,16 @@
 	url = git@github.com:go-craft/doc
 [submodule "module/schema/mysql"]
 	path = module/schema/mysql
-	url = git@github.com:go-craft/module-schema-mysql
+	url = git@github.com:go-craft/module-schema-mysql.git
 [submodule "module/schema/pgsql"]
 	path = module/schema/pgsql
-	url = git@github.com:go-craft/module-schema-pgsql
+	url = git@github.com:go-craft/module-schema-pgsql.git
 [submodule "module/schema/tdengine"]
 	path = module/schema/tdengine
-	url = git@github.com:go-craft/module-schema-tdengine
+	url = git@github.com:go-craft/module-schema-tdengine.git
 [submodule "module/server/go/goframe"]
 	path = module/server/go/goframe
 	url = git@github.com:go-craft/module-server-go-goframe.git
+[submodule "module/server/php/thinkphp"]
+	path = module/server/php/thinkphp
+	url = git@github.com:go-craft/module-server-php-thinkphp.git
