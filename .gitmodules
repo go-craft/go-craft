@@ -37,3 +37,9 @@
 [submodule "module/server/php/thinkphp"]
 	path = module/server/php/thinkphp
 	url = git@github.com:go-craft/module-server-php-thinkphp.git
+[submodule "webapp/goframe"]
+	path = webapp/goframe
+	url = git@github.com:go-craft/webapp-goframe.git
+[submodule "webapp/thinkphp"]
+	path = webapp/thinkphp
+	url = git@github.com:go-craft/webapp-thinkphp.git
