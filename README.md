@@ -16,5 +16,7 @@ git submodule add https://github.com/go-craft/tmpl-server-php-thinkphp tmpl/serv
 git submodule add https://github.com/go-craft/tmpl-server-php-laravel tmpl/server/php/laravel
 git submodule add https://github.com/go-craft/tmpl-server-go-goframe tmpl/server/go/goframe
 git submodule add https://github.com/go-craft/tmpl-server-go-gin tmpl/server/go/gin
+git submodule add https://github.com/go-craft/webapp-thinkphp webapp/thinkphp
+git submodule add https://github.com/go-craft/webapp-goframe webapp/goframe
 git submodule init
 ```
