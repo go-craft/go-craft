@@ -43,3 +43,6 @@
 [submodule "webapp/thinkphp"]
 	path = webapp/thinkphp
 	url = git@github.com:go-craft/webapp-thinkphp.git
+[submodule "ui/vue"]
+	path = ui/vue
+	url = git@github.com:go-craft/ui-vue.git

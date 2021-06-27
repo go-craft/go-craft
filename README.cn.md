@@ -140,6 +140,28 @@ $ make
 
 未来会为 “debian家族” （例如：`debian` 、`kali` 或 `ubuntu`） 操作系统提供 deb 安装包和 ppa 源。
 
+
+## 添加 submodules
+```bash
+git submodule add https://github.com/go-craft/doc doc
+git submodule add https://github.com/go-craft/example example
+git submodule add https://github.com/go-craft/tmpl-client-cpp-qt5 tmpl/client/cpp/qt5
+git submodule add https://github.com/go-craft/tmpl-client-java-android tmpl/client/java/android
+git submodule add https://github.com/go-craft/tmpl-client-rust-reqwest tmpl/client/rust/reqwest
+git submodule add https://github.com/go-craft/tmpl-schema-mysql tmpl/schema/mysql
+git submodule add https://github.com/go-craft/tmpl-schema-pgsql tmpl/schema/pgsql
+git submodule add https://github.com/go-craft/tmpl-schema-tdengine tmpl/schema/tdengine
+git submodule add https://github.com/go-craft/tmpl-server-node-express tmpl/server/node/exporess
+git submodule add https://github.com/go-craft/tmpl-server-php-thinkphp tmpl/server/php/thinkphp
+git submodule add https://github.com/go-craft/tmpl-server-php-laravel tmpl/server/php/laravel
+git submodule add https://github.com/go-craft/tmpl-server-go-goframe tmpl/server/go/goframe
+git submodule add https://github.com/go-craft/tmpl-server-go-gin tmpl/server/go/gin
+git submodule add https://github.com/go-craft/webapp-thinkphp webapp/thinkphp
+git submodule add https://github.com/go-craft/webapp-goframe webapp/goframe
+git submodule add https://github.com/go-craft/ui-vue ui/vue
+git submodule init
+```
+
 ### 3.4 运行 go-craft <a id="chapter-0034"></a>
 
 #### 命令模式
